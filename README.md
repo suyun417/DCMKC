@@ -1,6 +1,6 @@
 This code is for the paper "DCMKC: A Dual Consistency Matching Approach for Multi-hop Question Answering in LLMs".
 
-The datasets can be downloded from huggingface (https://huggingface.co/datasets/rmanluo/RoG-webqsp; https://huggingface.co/datasets/rmanluo/RoG-cwq).  
+The datasets can be downloaded from huggingface (https://huggingface.co/datasets/rmanluo/RoG-webqsp; https://huggingface.co/datasets/rmanluo/RoG-cwq).  
 
 ## Try DCMKC
 

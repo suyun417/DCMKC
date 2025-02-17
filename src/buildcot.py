@@ -20,7 +20,7 @@ triplet: Hanover Parish, location.location.people_born_here, Alexander Bustamant
 
 Please convert each generated sentence in the thought chains into a triplet following the examples and return them.        
 Only return the triplets without any number. '''
-    model='llama-3.1-8b-instant'
+    model='llama-3.1-8b'
     ans1=query(prompt, model)
     ans1=ans1.split(':')[-1]
     ans1=ans1.split('\n')
@@ -43,7 +43,7 @@ triplet: Hanover Parish, location.location.people_born_here, Alexander Bustamant
 
 Please convert each generated sentence in the thought chains into a triplet following the examples and return them.        
 Only return the triplets without any number. '''
-    model='llama-3.1-8b-instant'
+    model='llama-3.1-8b'
     ans1=query(prompt, model)
     ans1=ans1.split(':')[-1]
     ans1=ans1.split('\n')

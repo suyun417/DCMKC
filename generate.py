@@ -3,13 +3,11 @@ import argparse
 from datasets import load_dataset, Dataset
 from multiprocessing import Pool
 from pandas import DataFrame
-from llm import query
+from src.llm import query
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModel
 import torch
 import numpy as np
-import pandas as pd
-from llm import query
 import pandas as pd
 import re
 import string
@@ -73,7 +71,7 @@ def llm_gen(select1,select2,question):
     Please generate as many answers as possible for the question based on the generated paragraph and sentences.
     Let's think step by step. 
     Only return the answers. If there are more than one answer, please use \'|\' to split them.'''
-    model='llama-3.1-8b-instant'
+    model='llama-3.1-8b'
     ans=query(prompt, model)
     return ans
 

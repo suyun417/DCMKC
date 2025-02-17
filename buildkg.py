@@ -3,7 +3,7 @@ import argparse
 from datasets import load_dataset, Dataset
 from multiprocessing import Pool
 from pandas import DataFrame
-from llm import query
+from src.llm import query
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModel
 import torch

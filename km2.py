@@ -5,13 +5,13 @@ from tqdm import tqdm
 from datasets import load_dataset, Dataset,load_from_disk
 from multiprocessing import Pool
 from pandas import DataFrame
-from llm import query
-from buildcot import llm_index1,llm_index2
+from src.llm import query
+from src.buildcot import llm_index1,llm_index2
 from transformers import AutoTokenizer, AutoModel
-from interchains import select_node
+from src.interchains import select_node
 import pandas as pd
 from difflib import SequenceMatcher
-from check import checkk
+from src.check import checkk
 import traceback
 
 def similarity(str1, str2):

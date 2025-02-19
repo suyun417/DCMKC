@@ -18,4 +18,4 @@ python km2.py -d [dataset name]
 ```
 python generate.py -d [dataset name]
 ```
-You need to change the **key** in llm.py to your own api_key.
+You need to change the **key** in src/llm.py to your own api_key.
